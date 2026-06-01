@@ -72,8 +72,8 @@
     updateTime();
     getWeather();
 
-    // BUG: time updates, weather never refreshes
     setInterval(updateTime, 1000);
+    setInterval(getWeather, 300000); // Refresh weather every 5 minutes
   </script>
 </body>
 </html>
