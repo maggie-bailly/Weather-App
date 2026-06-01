@@ -45,7 +45,7 @@
         timeZone: "America/Los_Angeles"
       });
 
-      timeEl.textContent = "Local time: " + sfTime;
+      timeEl.textContent = "San Francisco time: " + sfTime;
     }
 
     async function getWeather() {
